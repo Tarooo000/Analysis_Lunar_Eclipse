@@ -108,7 +108,7 @@ cx = -sol[0, 0]/2
 cy = -sol[1, 0]/2
 r = np.sqrt(-sol[2, 0] + cx**2 + cy**2)
 
-#結果の書き出し
+#結果の書き出し・半径の表示
 result = cv2.drawContours(trimrgb, contours, -1, (255, 0, 255), 2)
 result = cv2.circle(result, (int(round(cx)), int(round(cy))), int(round(r)), (0, 255, 0), 5)
 
