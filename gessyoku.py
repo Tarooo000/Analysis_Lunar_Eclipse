@@ -1,8 +1,6 @@
-# -*- coding: utf-8 -*-
+﻿# -*- coding: utf-8 -*-
 """
 Created on Mon May 20 21:02:58 2019
-
-@author: 山中　孝太郎
 """
 
 import cv2
